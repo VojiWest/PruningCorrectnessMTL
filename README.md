@@ -1,6 +1,6 @@
 This repository is used to train, prune, generate explanations and evaluate explantions to determine the effect of model pruning on explanation correctness in multitask learning. This is done on the NYUv2 dataset with the MTAN (Multitask Attention Network) model, pruned with HRank pruningm using GradCAM and variations of SegGradCAM to generate attribution based explanations that were evaluated in terms of correctness using ROAD (Remove and Debias)
 
-1. TRAIN BASE MODEl
+1. TRAIN BASE MODEL
   2. Download NYUv2 dataset from external source
   3. Train Chosen MTAN model on NYUv2 dataset using NYUv2 directory
   4. More details on: https://github.com/Cranial-XIX/CAGrad
